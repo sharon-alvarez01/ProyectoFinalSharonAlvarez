@@ -1,0 +1,108 @@
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.nav-link{
+    color: black;
+}
+.nav-link:hover{
+    color:#C5990D;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #C5990D;
+}
+
+.inicio{
+    background-color: black;
+    text-align: center;
+    color: #C5990D;
+    padding: 10px;
+    text-decoration: solid;
+}
+
+.barra{
+    margin-left: 280px;
+}
+  
+.btn{
+    background-color: #C5990D;
+    color:rgb(255, 255, 255);
+}
+.btn:hover{
+    background-color: #000000;
+    color:#ffffff;
+}
+  
+.boton{
+    justify-content: center;
+    margin: 25px;
+    margin-left: 380px;
+    padding: 7px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+
+
+/*-----------------------CONTACTANOS------------------------------*/
+.titulo{
+    background-color: #C5990D;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    width: 620px;
+}
+
+h3{
+    font-size: 30px;
+} 
+
+.enviar{
+    margin-top: 8px;
+    margin-left: 250px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    
+}
+
+
+
+
+#floatingInput{
+    margin-left: 15px;
+    width: 95%;
+    outline:#C5990D;
+}
+
+
+#floatingInput1{
+    margin-left: 15px;
+    width: 95%;
+    margin-top: -30px;
+}
+#floatingInput2{
+    margin-left: 15px;
+    width: 95%;
+    margin-top: 10px;
+}
+
+.textoo{
+    margin-left: 10px;
+    font-size: 15px;
+}
+#floatingTextarea2{
+    margin-left: 15px;
+    width: 95%;
+    margin-top: 10px;
+}
+.form-control:focus{
+    color:var(--bs-body-color);
+    background-color:var(--bs-body-bg);
+    border-color:#C5990D;outline:0;
+    box-shadow:0 0 0 0.1rem #C5990D;
+}

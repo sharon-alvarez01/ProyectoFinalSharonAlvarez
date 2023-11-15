@@ -1,0 +1,431 @@
+html {
+    font-size: 14px;
+}
+  
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+    
+html {
+    position: relative;
+    min-height: 100%;
+}
+    
+body {
+    margin-bottom: 60px;
+}
+  
+.ini{
+    background-color: black;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+    width: "100%";
+    text-decoration: solid;
+  
+}
+
+  .texto{
+    margin: 25px;
+}
+  
+.inicio{
+    background-color: black;
+    text-align: center;
+    color: #C5990D;
+    padding: 10px;
+    text-decoration: solid;
+}
+  
+.cambios{
+    margin-top:40px;
+    color: black;
+}
+  
+.imagen {
+    width: 100px !important;
+    height: 100px !important;
+    margin: 25px; 
+    
+}
+  
+.btn{
+    background-color: #C5990D;
+    color:black;
+}
+
+.btn:hover{
+    background-color: black;
+    color:white;
+}
+  
+.boton{
+    justify-content: center;
+    margin: 25px;
+    margin-left: 380px;
+    padding: 7px;
+    color: black;
+    font-size: 18px;
+}
+  
+  
+  
+.nav-link{
+    color: black;
+}
+
+.nav-link:hover{
+    color:#C5990D;
+}
+  
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #C5990D;
+}
+  
+.inicio{
+    background-color: black;
+    text-align: center;
+    color: #C5990D;
+    padding: 10px;
+    text-decoration: solid;
+}
+
+
+.barraInicio{
+    margin-left: 850px;
+}
+
+
+
+p{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.formularioBuscar{
+  overflow: visible;  
+  float: left;
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+}
+
+.buscarServicio{
+  overflow: visible;  
+  float: left;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin-bottom: -100px;
+
+  
+}
+
+
+.formularioAgregar{
+  overflow: visible;  
+  float: left;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  
+}
+
+
+
+/*--------------------------------------------------------MODULO ADMIN--------------------------------------------------------*/
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: "Montserrat", "Arial", sans-serif;
+  color: #C5990D;
+  font-size: 25px;
+  margin-bottom: -35px;
+  margin-left: 260px;
+  margin-top: 20px;
+
+}
+
+
+form {
+  text-transform: capitalize;
+  font-family: "Lato", "Arial", sans-serif;
+  text-align: center;
+}
+
+#botonAdmin1{
+  background: #C5990D;
+  border-radius: 30px;
+  padding: 16px 20px;
+  width: 180px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: 0.4s;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: bold;
+  border: none;
+  box-shadow: none;
+  margin-left: 400px;
+
+}
+
+#botonAdmin1:hover{
+  background: #000000;
+  cursor: pointer;
+}
+
+#botonAdmin2{
+  background: #C5990D;
+  border-radius: 30px;
+  padding: 16px 20px;
+  width: 180px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: 0.4s;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: bold;
+  border: none;
+  box-shadow: none;
+
+}
+
+#botonAdmin2:hover{
+  background: #000000;
+  cursor: pointer;
+}
+
+.inputt{
+  width: 300px;
+  margin-bottom: 15px;
+  border-radius: 30px;
+  border: 1px solid #DAE2F1;
+  padding: 15px 20px;
+  color: #202122;
+  font-size: 0.9rem;
+  transition: 0.4s;
+  margin-left: 100px;
+}
+
+.inputt:last-child{
+  margin-bottom: 0;
+}
+
+.inputt:focus{
+  border-color: #C5990D;
+  outline: none;
+}
+
+.botonBuscar{
+  background: #C5990D;
+  border-radius: 30px;
+  padding: 16px 20px;
+  width: 160px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: 0.4s;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: bold;
+  border: none;
+  box-shadow: none;
+}
+.botonBuscar:hover{
+  background: #000000;
+  cursor: pointer;
+}
+
+.botonAgregar{
+ 
+  background: #C5990D;
+  border-radius: 30px;
+  padding: 16px 20px;
+  width: 160px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: 0.4s;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: bold;
+  border: none;
+  box-shadow: none;
+  margin-left:780px;
+  margin-bottom:-800px;
+
+}
+
+.botonAgregar:hover{
+  background: #000000;
+  cursor: pointer;
+}
+
+.inputServicio{
+  width: 300px;
+  border-radius: 30px;
+  border: 1px solid #DAE2F1;
+  padding: 15px 30px;
+  color: #202122;
+  font-size: 0.9rem;
+  transition: 0.4s;
+  margin:10px;
+  margin-left:40px;
+}
+
+.inputServicio:last-child{
+  margin-bottom: 0;
+}
+
+.inputServicio:focus{
+  border-color: #C5990D;
+  outline: none;
+}
+
+.Botonn{
+  background: #C5990D;
+  border-radius: 30px;
+  padding: 16px 20px;
+  width: 230px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: 0.4s;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: bold;
+  border: none;
+  box-shadow: none;
+
+}
+
+.Botonn:hover{
+  background: #000000;
+  cursor: pointer;
+}
+
+.BotonPromocionA{
+  background: #C5990D;
+  border-radius: 30px;
+  padding: 16px 20px;
+  width: 230px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: 0.4s;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: bold;
+  border: none;
+  box-shadow: none;
+}
+
+.BotonPromocionA:hover{
+  background: #000000;
+  cursor: pointer;
+}
+
+
+.inputServicios{
+  width: 300px;
+  border-radius: 30px;
+  border: 1px solid #DAE2F1;
+  padding: 15px 30px;
+  color: #202122;
+  font-size: 0.9rem;
+  transition: 0.4s;
+  margin:10px;
+  margin-left:50px;
+}
+
+.inputServicios:last-child{
+  margin-bottom: 0;
+}
+
+.inputServicios:focus{
+  border-color: #C5990D;
+  outline: none;
+}
+
+
+.RadioServicioP{
+  margin:10px;
+  margin-left:40px;
+}
+
+
+
+.inputtPromociones{
+  width: 300px;
+  margin-bottom: 15px;
+  border-radius: 30px;
+  border: 1px solid #DAE2F1;
+  padding: 15px 20px;
+  color: #202122;
+  font-size: 0.9rem;
+  transition: 0.4s;
+  margin-left: 400px;
+}
+
+.inputtPromociones:last-child{
+  margin-bottom: 0;
+}
+
+.inputtPromociones:focus{
+  border-color: #C5990D;
+  outline: none;
+}
+
+
+.sign-up-divider {
+  font-family: "Montserrat", "Arial", sans-serif;
+  text-align: center;
+  color: #C4C8D4;
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+  padding: 24px 0;
+}
+.sign-up-divider::before {
+  content: "";
+  display: inline-block;
+  width: 27%;
+  margin-right: 5%;
+  height: 1px;
+  background: #DAE2F1;
+  vertical-align: middle;
+}
+.sign-up-divider::after {
+  content: "";
+  display: inline-block;
+  width: 27%;
+  margin-left: 5%;
+  height: 1px;
+  background: #DAE2F1;
+  vertical-align: middle;
+}
+
+.login {
+  text-align: center;
+  margin-top: 24px;
+  font-size: 0.8rem;
+  font-family: "Montserrat", "Arial", sans-serif;
+}
+.login a {
+  margin-left: 4px;
+  text-decoration: none;
+  color: #C5990D;
+  transition: 0.3s;
+}
+.login a:hover {
+  color: #C5990D;
+  font-weight: bold;
+}

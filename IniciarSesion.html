@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesion</title>
+    <link href="ReferenciasGoogle/InicioSesion1.css" rel="stylesheet">
+    <link rel='stylesheet' href='ReferenciasGoogle/InicioSesion2.css'>
+    <link rel="stylesheet" href="ReferenciasGoogle/InicioSesion3.css">
+    <link rel="stylesheet" href="ReferenciasGoogle/Boostrap.css" >
+    <link rel="stylesheet" href="Estilos/IniciarSesion.css">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg  nav justify-content-end ">
+                <div class="container-fluid">
+                  <img src="Imagenes/logo.png" alt="Bootstrap" width="100" height="90">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav nav">
+                            <ul class="nav  nav-underline barraInicio">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="Index.php">Inicio</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link " href="Registrarse.html">Registrarse</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link active" href="IniciarSesion.html">Iniciar Sesion</a>
+                                </li>
+                            </ul>                     
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="inicio">
+                    <p><strong>Inicia Sesion</strong></p>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-background">
+                    <h1><strong>INICIAR SESION</strong></h1>
+                    <form action="IniciarSesion.php" method="post">
+                        <input type="text" name="usuario" placeholder="Usuario">
+                        <br>
+                        <input type="password" name="contrasena" placeholder="Contraseña">
+                        <br><br>
+                        <input type="submit" name="iniciarSesion"  value="INGRESAR">
+                    </form>
+                    <div class="login">
+                        <h6>¿Necesitas una cuenta?<a href="Registrarse.html">Registrarse</a></h6>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+</body>
+</html>
